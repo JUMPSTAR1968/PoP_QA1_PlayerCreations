@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerOne : MonoBehaviour
 {
+
     [SerializeField] private TextMeshProUGUI m_Text;
     private int Health = 2006;
     private int Mana = 1024;
@@ -18,4 +19,5 @@ public class PlayerOne : MonoBehaviour
     {
         m_Text.text = $"Name: Jedidiah Lopez \n Health: {Health} \n Mana: {Mana} \n Physical Damage: {PhysicalDamage} \n Magical Damage: {MagicalDamage} \n Armor: {Armor} \n Magic Resistance: {MagicResistance} \n Speed: {Speed}";
     }
+
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerThree : MonoBehaviour
 {
+
     [SerializeField] private TextMeshProUGUI m_Text;
     private int Health = 1997;
     private int Mana = 1997;
